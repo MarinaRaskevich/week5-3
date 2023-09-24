@@ -1,0 +1,74 @@
+body {
+  font-family: "Marmelad", sans-serif;
+  background-color: #faf3f0;
+  padding: 0 50px;
+}
+
+/* Стили header */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding-inline-start: 0;
+}
+
+li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 0 40px;
+}
+
+button {
+  border: none;
+  border-radius: 10px;
+  background-color: #ffbdf7;
+  padding: 10px;
+}
+
+button:hover {
+  background-color: #e4a5ff;
+}
+
+/* Стили main*/
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+figure {
+  margin: 20px 0;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+}
+
+figcaption {
+  text-align: center;
+  font-family: "Marmelad", sans-serif;
+}
+
+#magic:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
